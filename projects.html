@@ -1,0 +1,64 @@
+---
+layout: default
+title: Projects — Kabir Raj Singh
+permalink: /projects/
+---
+
+<div class="page-header">
+  <p class="eyebrow">Selected Work</p>
+  <h1>Projects</h1>
+  <p class="tagline">Hackathon builds and side projects spanning RAG safety, review analytics, and document automation.</p>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title"><a href="https://www.youtube.com/watch?v=csbVYqznqt8">EthicSecure.AI — Compliance-Aware LLM Gateway</a></span>
+    <span class="entry-meta">Demo</span>
+  </div>
+  <div class="detail-block">
+    <p><strong>What it is.</strong> A production-ready gateway that sits in front of an LLM application and inspects both incoming prompts and outgoing responses before they reach the user, so that unsafe or non-compliant outputs never leave the system.</p>
+    <p><strong>How it works.</strong> Requests are routed through a semantic-routing layer that classifies intent before generation, and retrieval is backed by a Qdrant vector database indexed via LlamaIndex. Policy rules are matched against retrieved context and model output in real time, so enforcement happens without a noticeable hit to response latency.</p>
+    <p><strong>Why it matters.</strong> Most guardrail implementations bolt a keyword filter onto the output side only. This project treats compliance as a retrieval + routing problem, which catches violations that keyword filters miss and scales to new policies without retraining a classifier.</p>
+  </div>
+  <ul class="tag-row">
+    <li>LlamaIndex</li>
+    <li>Qdrant</li>
+    <li>RAG</li>
+    <li>Semantic Routing</li>
+    <li>LLM Guardrails</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title"><a href="https://devfolio.co/projects/ticketinsiteai-fb2c">TicketinSite.AI — AI-Driven Product Review Analytics</a></span>
+  </div>
+  <div class="detail-block">
+    <p><strong>What it is.</strong> An end-to-end analytics platform that pulls customer reviews and mentions from Twitter, Reddit, and Google Play into one pipeline and turns them into structured, actionable insight for product teams.</p>
+    <p><strong>How it works.</strong> Incoming text passes through an LLM-powered spam and noise filter, then a translation step to normalize multilingual reviews into a common language, then clustering to group semantically similar complaints and feature requests together. The output feeds sentiment dashboards and issue clusters ranked by volume and severity.</p>
+    <p><strong>Why it matters.</strong> Product teams typically read reviews manually or rely on star ratings alone, which misses recurring issues buried in free text across platforms. This pipeline surfaces those clusters automatically, across sources, in near real time.</p>
+  </div>
+  <ul class="tag-row">
+    <li>LLM Spam Filtering</li>
+    <li>Multilingual NLP</li>
+    <li>Clustering</li>
+    <li>Sentiment Analysis</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">ESS2 Claim Surveillance App</span>
+  </div>
+  <div class="detail-block">
+    <p><strong>What it is.</strong> A full-stack application for automating invoice and expense-claim processing, built to cut down the manual data entry involved in claim surveillance.</p>
+    <p><strong>How it works.</strong> A Next.js frontend gives claim reviewers a working interface, backed by a Flask API that runs OCR over uploaded invoices and receipts to extract line items, amounts, and vendor details automatically instead of requiring manual transcription.</p>
+    <p><strong>Impact.</strong> Reduced manual data entry in the claims workflow by roughly 50%, freeing reviewers to focus on exception handling rather than transcription.</p>
+  </div>
+  <ul class="tag-row">
+    <li>Next.js</li>
+    <li>Flask</li>
+    <li>OCR</li>
+    <li>Full-Stack</li>
+  </ul>
+</div>

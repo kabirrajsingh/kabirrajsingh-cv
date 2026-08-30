@@ -1,0 +1,49 @@
+---
+layout: default
+title: Research — Kabir Raj Singh
+permalink: /research/
+---
+
+<div class="page-header">
+  <p class="eyebrow">Publications</p>
+  <h1>Research</h1>
+  <p class="tagline">Peer-reviewed work on emotion-aware text generation, published in Springer and IEEE venues.</p>
+</div>
+
+<div class="pub-list">
+  <div class="pub entry">
+    <div class="pub-header">
+      <a class="pub-title" href="https://doi.org/10.1007/s42979-025-04564-3">ECGText: Maximizing GPT Capabilities for Enhanced Text Generation and Emotional Insight</a>
+      <span class="pub-venue">Springer — SN Computer Science</span>
+    </div>
+    <div class="detail-block">
+      <p><strong>Problem.</strong> General-purpose GPT models generate fluent text but have no explicit mechanism for targeting a specific emotional tone, which limits their usefulness for applications like therapeutic writing aids, character dialogue, or emotionally-calibrated marketing copy.</p>
+      <p><strong>Approach.</strong> Built an emotionally-aware generation pipeline (ECGText) that integrates GPT models with a sentiment and emotion classification stage, so generated text can be steered toward a target emotion rather than left to the base model's default tone.</p>
+      <p><strong>Evaluation.</strong> Assessed output quality along four axes: cosine similarity (semantic fidelity to the prompt), winnowing (near-duplicate detection to check for degenerate repetition), part-of-speech distribution analysis (grammatical naturalness), and sentence structure statistics (syntactic diversity) — combining semantic, structural, and stylistic checks rather than relying on a single metric.</p>
+    </div>
+    <ul class="tag-row">
+      <li>GPT</li>
+      <li>Emotion Classification</li>
+      <li>Sentiment Analysis</li>
+      <li>NLG Evaluation</li>
+    </ul>
+  </div>
+
+  <div class="pub entry">
+    <div class="pub-header">
+      <a class="pub-title" href="https://ieeexplore.ieee.org/document/10837153">ECGText: Crafting Emotional Texts through GenAI</a>
+      <span class="pub-venue">IEEE</span>
+    </div>
+    <div class="detail-block">
+      <p><strong>Problem.</strong> Extends the ECGText line of work by asking whether emotional control can be made more precise and consistent than a single classification stage allows.</p>
+      <p><strong>Approach.</strong> Combines an LLM generator with RoBERTa, fine-tuned on the Go-Emotions dataset, to score candidate generations against a target emotion label. An iterative optimization pipeline regenerates and re-scores text until it converges on output that matches the intended emotion, rather than accepting the first generation.</p>
+      <p><strong>Result.</strong> The iterative, RoBERTa-scored approach achieved higher emotional fidelity — how closely the output matches the intended emotion — and better linguistic coherence than single-pass generation baselines.</p>
+    </div>
+    <ul class="tag-row">
+      <li>RoBERTa</li>
+      <li>Go-Emotions</li>
+      <li>Generative AI</li>
+      <li>Iterative Optimization</li>
+    </ul>
+  </div>
+</div>

@@ -17,6 +17,10 @@ title: Kabir Raj Singh — Platform Software Engineer
       <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>
       Get in touch
     </a>
+    <a class="btn btn-accent-2" href="https://blog.kabirrajsingh.com">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"/></svg>
+      Read my Blog
+    </a>
   </div>
 </div>
 
@@ -48,7 +52,7 @@ title: Kabir Raj Singh — Platform Software Engineer
   <li>
     <a href="https://www.youtube.com/@KabirRajSingh10">
       <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>
-      YouTube — The Agent Log
+      YouTube
     </a>
   </li>
   <li>
@@ -119,6 +123,11 @@ title: Kabir Raj Singh — Platform Software Engineer
   </div>
 </div>
 
+<a class="section-link" href="{{ '/research/' | relative_url }}">
+  Full research details
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+</a>
+
 <h2>Projects</h2>
 
 <div class="entry">
@@ -148,6 +157,11 @@ title: Kabir Raj Singh — Platform Software Engineer
     <li>Engineered a full-stack application (Next.js frontend + Flask backend) for automated invoice/expense claim processing with OCR — reduced manual data entry by 50%.</li>
   </ul>
 </div>
+
+<a class="section-link" href="{{ '/projects/' | relative_url }}">
+  Full project details
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+</a>
 
 <h2>Education</h2>
 
@@ -233,3 +247,23 @@ title: Kabir Raj Singh — Platform Software Engineer
     <li>Alerting</li>
   </ul>
 </div>
+
+{% if site.data.videos and site.data.videos.size > 0 %}
+<h2>Latest Videos</h2>
+<div class="video-grid">
+  {% for video in site.data.videos %}
+  <a class="video-card" href="{{ video.url }}">
+    <div class="video-thumb-wrap">
+      <img src="{{ video.thumbnail }}" alt="{{ video.title }}" loading="lazy">
+    </div>
+    <p class="video-title">{{ video.title }}</p>
+  </a>
+  {% endfor %}
+</div>
+<p class="video-more">
+  <a href="https://www.youtube.com/@KabirRajSingh10">
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>
+    All videos on YouTube
+  </a>
+</p>
+{% endif %}

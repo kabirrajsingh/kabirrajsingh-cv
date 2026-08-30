@@ -13,6 +13,11 @@
 </head>
 <body>
   <div class="wrap">
+    <nav class="tabnav">
+      <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">CV</a>
+      <a href="{{ '/projects/' | relative_url }}" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+      <a href="{{ '/research/' | relative_url }}" class="{% if page.url == '/research/' %}active{% endif %}">Research</a>
+    </nav>
     {{ content }}
     <footer>
       Last updated {{ site.time | date: "%B %Y" }}
