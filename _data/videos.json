@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "72RJD4HqL60",
+    "title": "Design Patterns Explained In The Simplest Way",
+    "url": "https://www.youtube.com/watch?v=72RJD4HqL60",
+    "published": "2026-06-28T11:50:45+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/72RJD4HqL60/mqdefault.jpg"
+  },
+  {
+    "id": "ejHl2WLWpDI",
+    "title": "My Search Engine Can Explain Why a Result Is Ranked #1",
+    "url": "https://www.youtube.com/watch?v=ejHl2WLWpDI",
+    "published": "2026-06-16T08:28:14+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/ejHl2WLWpDI/mqdefault.jpg"
+  },
+  {
+    "id": "gLKZoDUWzFw",
+    "title": "Build Your First MCP Server in 15 minutes!",
+    "url": "https://www.youtube.com/watch?v=gLKZoDUWzFw",
+    "published": "2026-06-15T12:26:54+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/gLKZoDUWzFw/mqdefault.jpg"
+  },
+  {
+    "id": "h1LDPu-aOoM",
+    "title": "Build Your First MCP Server in 15 minutes!",
+    "url": "https://www.youtube.com/watch?v=h1LDPu-aOoM",
+    "published": "2026-06-15T12:26:11+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/h1LDPu-aOoM/mqdefault.jpg"
+  }
+]
