@@ -2,3 +2,6 @@ title: Kabir Raj Singh
 description: CV / Resume of Kabir Raj Singh
 url: "https://kabirrajsingh.com"
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
