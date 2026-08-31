@@ -1,5 +1,12 @@
 [
   {
+    "id": "z6Yhdl3Vi7k",
+    "title": "Your RAG Pipeline Doesn't Have an LLM Problem",
+    "url": "https://www.youtube.com/watch?v=z6Yhdl3Vi7k",
+    "published": "2026-08-30T12:48:54+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/z6Yhdl3Vi7k/mqdefault.jpg"
+  },
+  {
     "id": "72RJD4HqL60",
     "title": "Design Patterns Explained In The Simplest Way",
     "url": "https://www.youtube.com/watch?v=72RJD4HqL60",
@@ -19,12 +26,5 @@
     "url": "https://www.youtube.com/watch?v=gLKZoDUWzFw",
     "published": "2026-06-15T12:26:54+00:00",
     "thumbnail": "https://i.ytimg.com/vi/gLKZoDUWzFw/mqdefault.jpg"
-  },
-  {
-    "id": "h1LDPu-aOoM",
-    "title": "Build Your First MCP Server in 15 minutes!",
-    "url": "https://www.youtube.com/watch?v=h1LDPu-aOoM",
-    "published": "2026-06-15T12:26:11+00:00",
-    "thumbnail": "https://i.ytimg.com/vi/h1LDPu-aOoM/mqdefault.jpg"
   }
 ]
