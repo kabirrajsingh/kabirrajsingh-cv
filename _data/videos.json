@@ -1,5 +1,12 @@
 [
   {
+    "id": "YcC_OKEzJ9A",
+    "title": "Do LLM Guardrails Actually Work? I Measured It (4% vs 91%)llm guardrails",
+    "url": "https://www.youtube.com/watch?v=YcC_OKEzJ9A",
+    "published": "2026-09-06T07:12:10+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/YcC_OKEzJ9A/mqdefault.jpg"
+  },
+  {
     "id": "uj6IrJib1fs",
     "title": "Is RAG Dead? I Tested It Against Long-Context (Real Numbers)",
     "url": "https://www.youtube.com/watch?v=uj6IrJib1fs",
@@ -19,12 +26,5 @@
     "url": "https://www.youtube.com/watch?v=72RJD4HqL60",
     "published": "2026-06-28T11:50:45+00:00",
     "thumbnail": "https://i.ytimg.com/vi/72RJD4HqL60/mqdefault.jpg"
-  },
-  {
-    "id": "ejHl2WLWpDI",
-    "title": "My Search Engine Can Explain Why a Result Is Ranked #1",
-    "url": "https://www.youtube.com/watch?v=ejHl2WLWpDI",
-    "published": "2026-06-16T08:28:14+00:00",
-    "thumbnail": "https://i.ytimg.com/vi/ejHl2WLWpDI/mqdefault.jpg"
   }
 ]
