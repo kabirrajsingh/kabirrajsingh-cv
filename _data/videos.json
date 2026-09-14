@@ -1,30 +1,30 @@
 [
   {
+    "id": "3Wm539TqZQI",
+    "title": "Authentication and Authorization in MCP using OAuth: Streamable HTTP, Scopes, and Security",
+    "url": "https://www.youtube.com/watch?v=3Wm539TqZQI",
+    "published": "2026-09-13T16:27:58+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/3Wm539TqZQI/mqdefault.jpg"
+  },
+  {
+    "id": "f4eyo58hSMc",
+    "title": "AI Policy Explained  Avoid This User Blocking Mistake!",
+    "url": "https://www.youtube.com/watch?v=f4eyo58hSMc",
+    "published": "2026-09-13T15:48:41+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/f4eyo58hSMc/mqdefault.jpg"
+  },
+  {
+    "id": "m-aJZyXQuVY",
+    "title": "AI Guardrails  The Security Trade Off Explained",
+    "url": "https://www.youtube.com/watch?v=m-aJZyXQuVY",
+    "published": "2026-09-13T15:47:41+00:00",
+    "thumbnail": "https://i.ytimg.com/vi/m-aJZyXQuVY/mqdefault.jpg"
+  },
+  {
     "id": "YcC_OKEzJ9A",
     "title": "Do LLM Guardrails Actually Work? I Measured It (4% vs 91%)llm guardrails",
     "url": "https://www.youtube.com/watch?v=YcC_OKEzJ9A",
     "published": "2026-09-06T07:12:10+00:00",
     "thumbnail": "https://i.ytimg.com/vi/YcC_OKEzJ9A/mqdefault.jpg"
-  },
-  {
-    "id": "uj6IrJib1fs",
-    "title": "Is RAG Dead? I Tested It Against Long-Context (Real Numbers)",
-    "url": "https://www.youtube.com/watch?v=uj6IrJib1fs",
-    "published": "2026-08-31T19:53:08+00:00",
-    "thumbnail": "https://i.ytimg.com/vi/uj6IrJib1fs/mqdefault.jpg"
-  },
-  {
-    "id": "z6Yhdl3Vi7k",
-    "title": "Your RAG Pipeline Doesn't Have an LLM Problem",
-    "url": "https://www.youtube.com/watch?v=z6Yhdl3Vi7k",
-    "published": "2026-08-30T12:48:54+00:00",
-    "thumbnail": "https://i.ytimg.com/vi/z6Yhdl3Vi7k/mqdefault.jpg"
-  },
-  {
-    "id": "72RJD4HqL60",
-    "title": "Design Patterns Explained In The Simplest Way",
-    "url": "https://www.youtube.com/watch?v=72RJD4HqL60",
-    "published": "2026-06-28T11:50:45+00:00",
-    "thumbnail": "https://i.ytimg.com/vi/72RJD4HqL60/mqdefault.jpg"
   }
 ]
